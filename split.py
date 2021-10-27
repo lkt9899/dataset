@@ -19,7 +19,7 @@ with open('/home/aa/dataset/export/val.txt', 'w') as f :
 	f.write('\n'.join(val_img_list) + '\n')
 
 with open('/home/aa/dataset/data.yaml', 'r') as f :
-	data = yaml.load(f)
+	data = yaml.safe_load(f)
 
 print(data)
 
