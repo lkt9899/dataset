@@ -1,0 +1,5 @@
+names:
+- Drone
+nc: 1
+train: /home/aa/dataset/export/train.txt
+val: /home/aa/dataset/export/val.txt
